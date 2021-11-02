@@ -1,0 +1,65 @@
+Microsoft Windows [Version 10.0.19043.1288]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\김현우>ibmcloud login
+API 엔드포인트: https://cloud.ibm.com
+지역: kr-seo
+
+Email> josan1128@gmail.com
+
+Password>
+인증 중...
+확인
+
+대상 지정된 계정 현우 김's Account (293762c5b0494ba9bf1fb0194f20cbb3)
+
+
+API 엔드포인트:      https://cloud.ibm.com
+지역:                kr-seo
+사용자:              josan1128@gmail.com
+계정:                현우 김's Account (293762c5b0494ba9bf1fb0194f20cbb3)
+리소스 그룹:         대상으로 지정된 리소스 그룹이 없습니다.'ibmcloud target -g RESOURCE_GROUP' 명령을 사용하십시오.
+CF API 엔드포인트:
+조직:
+영역:
+
+경고: 최신 CLI 버전을 확인할 수 없습니다.
+팁: 업데이트 확인을 사용 안함으로 설정하려면 'ibmcloud config --check-version=false' 명령을 사용하십시오.
+
+
+C:\Users\김현우>ibmcloud resource groups
+josan1128@gmail.com(으)로 293762c5b0494ba9bf1fb0194f20cbb3 계정에서 모든 리소스 그룹 검색 중...
+확인
+이름      ID                                 기본 그룹   상태
+Default   57253be6ac3647afbf3ac71fbe0ca8c6   true        ACTIVE
+
+C:\Users\김현우>ibmcloud target -g Default
+대상 지정된 리소스 그룹 Default
+
+
+
+API 엔드포인트:      https://cloud.ibm.com
+지역:                kr-seo
+사용자:              josan1128@gmail.com
+계정:                현우 김's Account (293762c5b0494ba9bf1fb0194f20cbb3)
+리소스 그룹:         Default
+CF API 엔드포인트:
+조직:
+영역:
+
+
+C:\Users\김현우>ibmcloud target -o newFoundry -s mydev
+대상 지정된 조직 newFoundry
+
+대상 지정된 영역 mydev
+
+
+
+API 엔드포인트:      https://cloud.ibm.com
+지역:                us-south
+사용자:              josan1128@gmail.com
+계정:                현우 김's Account (293762c5b0494ba9bf1fb0194f20cbb3)
+리소스 그룹:         Default
+CF API 엔드포인트:   https://api.us-south.cf.cloud.ibm.com(API 버전: 2.169.0)
+조직:                newFoundry
+영역:                mydev
