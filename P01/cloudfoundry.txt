@@ -1,0 +1,7 @@
+리소스 그룹
+이름	newFoundry
+
+Cloud Foundry 조직
+이름	mydev
+지역	us-south
+ID	54f09a2d-2636-4557-a4b1-5b1cfcb1e4eb
