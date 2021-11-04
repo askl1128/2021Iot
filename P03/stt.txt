@@ -1,0 +1,16 @@
+C:\Users\김현우>curl -X POST -u "apikey:VRszs2KYJq8lP5OxJJZsh8amyj-Q2j5zkyv1lNCgsBKa" --header "Content-type: audio/wav" --data-binary @public_audio_ko-KR_BroadbandModel_sample1.wav "https://api.us-south.speech-to-text.watson.cloud.ibm.com/instances/3315a79e-e0f6-4df6-8996-f1684686ddd0/v1/recognize?model=ko-KR_BroadbandModel"
+{
+   "result_index": 0,
+   "results": [
+      {
+         "final": true,
+         "alternatives": [
+            {
+               "transcript": "네 명 숙박 할 건데 호텔 디럭스 룸은 다 찼다고 하셔서 그런데 혹시 싱글룸 두개로 예약은 가능한가요 ",
+               "confidence": 0.97
+            }
+         ]
+      }
+   ]
+}
+C:\Users\김현우>
