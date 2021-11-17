@@ -1,0 +1,7 @@
+{"name":"Kim","age":24,"city":"Nonsan"}
+Kim
+{"name":"Kim","today":"2021-11-17T18:42:30.339Z","city":"Nonsan"}
+{"name":"Kim","city":"Nonsan"}
+Convert functions into strings to keep them in the JSON object.
+
+{"name":"Kim","age":"function () {return 24;}","city":"Nonsan"}
