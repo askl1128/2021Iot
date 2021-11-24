@@ -1,0 +1,16 @@
+C:\Users\김현우>aws --profile default --endpoint-url https://s3.au-syd.cloud-object-storage.appdomain.cloud s3 cp shinchan.jpg s3://kyibmiot1118/shinchan.jpg --metadata work=IBM
+upload: .\shinchan.jpg to s3://kyibmiot1118/shinchan.jpg
+
+C:\Users\김현우>aws --profile default --endpoint-url https://s3.au-syd.cloud-object-storage.appdomain.cloud s3api head-object --bucket kyibmiot1118 --key shinchan.jpg
+{
+    "AcceptRanges": "bytes",
+    "LastModified": "2021-11-18T07:55:42+00:00",
+    "ContentLength": 36562,
+    "ETag": "\"ba392bd17444906e3f69d01bcece6504\"",
+    "ContentType": "image/jpeg",
+    "Metadata": {
+        "work": "IBM"
+    }
+}
+
+C:\Users\김현우>
