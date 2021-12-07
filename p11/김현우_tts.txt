@@ -1,0 +1,5 @@
+	1번 synthesize(req.query);
+synthesize(params)
+텍스트를 지정된 음성(Korea의 Yuna)으로 합성합니다. 텍스트의 언어와 지정된 음성의 언어가 일치해야만 합니다.
+	2 transcript.pipe(res);
+음성 파일을 브라우저 파일로 파이프 하는 코드
